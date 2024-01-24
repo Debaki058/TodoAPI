@@ -1,0 +1,65 @@
+2024-01-24 15:20:39,037 INFO Watching for file changes with StatReloader 668
+2024-01-24 15:20:55,314 WARNING Forbidden: /register/ 241
+2024-01-24 15:20:55,314 WARNING "POST /register/ HTTP/1.1" 403 39 212
+2024-01-24 15:20:58,117 WARNING Forbidden: /register/ 241
+2024-01-24 15:20:58,119 WARNING "POST /register/ HTTP/1.1" 403 39 212
+2024-01-24 15:21:12,300 WARNING Forbidden: /register/ 241
+2024-01-24 15:21:12,309 WARNING "POST /register/ HTTP/1.1" 403 39 212
+2024-01-24 15:21:40,591 INFO Watching for file changes with StatReloader 668
+2024-01-24 15:21:48,946 WARNING Not Found: / 241
+2024-01-24 15:21:48,949 WARNING "GET / HTTP/1.1" 404 2238 212
+2024-01-24 15:21:56,503 INFO "GET /register HTTP/1.1" 301 0 212
+2024-01-24 15:21:56,783 WARNING Method Not Allowed: /register/ 241
+2024-01-24 15:21:56,800 WARNING "GET /register/ HTTP/1.1" 405 10520 212
+2024-01-24 15:22:02,543 WARNING Method Not Allowed: /register/ 241
+2024-01-24 15:22:02,543 WARNING "GET /register/ HTTP/1.1" 405 10520 212
+2024-01-24 15:22:35,539 INFO "POST /register/ HTTP/1.1" 200 10751 212
+2024-01-24 15:23:19,942 WARNING Forbidden: /register/ 241
+2024-01-24 15:23:19,942 WARNING "POST /register/ HTTP/1.1" 403 39 212
+2024-01-24 15:23:33,097 INFO "POST /register/ HTTP/1.1" 200 10649 212
+2024-01-24 15:23:59,163 WARNING Method Not Allowed: /register/ 241
+2024-01-24 15:23:59,163 WARNING "GET /register/ HTTP/1.1" 405 40 212
+2024-01-24 15:24:03,462 INFO "POST /register/ HTTP/1.1" 200 131 212
+2024-01-24 15:24:19,425 INFO "POST /register/ HTTP/1.1" 200 105 212
+2024-01-24 15:26:18,468 ERROR Internal Server Error: /register/ 241
+Traceback (most recent call last):
+  File "C:\Users\N I T R O 5\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\N I T R O 5\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\N I T R O 5\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\N I T R O 5\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\N I T R O 5\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\N I T R O 5\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2024-01-24 15:26:18,479 ERROR "POST /register/ HTTP/1.1" 500 79513 212
+2024-01-24 15:26:23,617 ERROR Internal Server Error: /register/ 241
+Traceback (most recent call last):
+  File "C:\Users\N I T R O 5\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\N I T R O 5\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\N I T R O 5\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\N I T R O 5\AppData\Local\Programs\Python\Python312\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\N I T R O 5\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\views.py", line 511, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\N I T R O 5\AppData\Local\Programs\Python\Python312\Lib\site-packages\rest_framework\views.py", line 423, in finalize_response
+    assert isinstance(response, HttpResponseBase), (
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2024-01-24 15:26:23,620 ERROR "POST /register/ HTTP/1.1" 500 79513 212
