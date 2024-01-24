@@ -1,0 +1,388 @@
+2024-01-24 11:05:49,925 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:07:52,251 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:07:52,758 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:08:58,224 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:08:58,794 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:09:02,100 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:09:02,661 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:09:43,759 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:09:44,266 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:09:47,576 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:09:48,046 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:09:51,334 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:09:51,836 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:09:56,154 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:09:56,639 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:09:58,913 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:09:59,414 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:10:00,662 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:10:01,181 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:10:03,522 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:10:04,028 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:10:06,313 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:10:06,789 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:10:08,045 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:10:08,559 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:10:09,815 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:10:10,270 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:10:13,584 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:10:14,048 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:10:22,488 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:10:22,998 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:10:30,385 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:10:30,994 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:10:42,446 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:10:43,009 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:10:44,300 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:10:44,812 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:10:46,095 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:10:46,724 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:10:53,105 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:10:53,711 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:11:04,180 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:11:04,674 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:11:05,943 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:11:06,441 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:11:07,724 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:11:08,333 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:11:22,895 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:11:23,383 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:11:38,939 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:11:39,445 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:11:41,725 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:11:42,226 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:11:43,483 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:11:43,996 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:11:47,300 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:11:47,795 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:11:57,231 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:11:57,784 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:12:00,070 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:12:00,587 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:12:04,912 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:12:05,476 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:12:06,755 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:12:07,304 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:12:09,593 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:12:10,096 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:12:13,403 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:12:13,911 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:12:15,197 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:12:15,867 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:12:26,334 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:12:26,848 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:12:28,141 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:12:28,655 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:12:30,933 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:12:31,496 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:12:38,904 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:12:39,414 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:12:42,730 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:12:43,230 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:12:44,513 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:12:45,012 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:12:46,284 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:12:46,785 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:12:49,071 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:12:49,685 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:12:56,037 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:12:56,546 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:12:59,865 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:13:00,355 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:13:02,625 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:13:03,133 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:13:04,403 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:13:04,892 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:13:14,350 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:13:14,867 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:13:18,177 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:13:18,802 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:13:26,185 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:13:26,788 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:13:33,160 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:13:33,689 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:13:35,959 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:13:36,460 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:15:11,608 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:15:12,119 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:15:16,460 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:15:16,950 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:15:19,219 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:15:19,767 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:15:28,160 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:15:28,689 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:15:30,983 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:15:31,462 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:18:47,589 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:18:48,114 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:18:49,369 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:18:49,879 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:18:51,211 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:18:51,851 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:18:57,228 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:18:57,740 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:19:00,036 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:19:00,529 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:19:01,782 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:19:02,262 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:19:03,561 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:19:04,096 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:19:10,448 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:19:10,957 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:19:17,315 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:19:17,893 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:19:19,160 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:19:19,727 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:19:25,079 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:19:25,577 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:19:26,840 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:19:27,477 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:19:32,831 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:19:33,332 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:19:36,661 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:19:37,292 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:19:43,660 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:19:44,241 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:19:46,623 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:19:47,212 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:19:53,584 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:19:54,139 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:19:58,453 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:19:58,938 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:20:00,181 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:20:00,672 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:20:01,926 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:20:02,422 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:20:04,718 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:20:05,215 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:20:07,496 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:20:08,035 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:20:11,328 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:20:11,820 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:20:13,076 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:20:13,628 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:20:16,918 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:20:17,525 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:20:30,034 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:20:30,544 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:20:32,843 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:20:33,390 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:20:39,751 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:20:40,303 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:20:42,585 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:20:43,225 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:20:49,584 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:20:50,112 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:20:51,390 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:20:51,979 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:20:57,344 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:20:57,883 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:20:59,227 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:20:59,767 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:21:01,049 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:21:01,557 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:21:02,813 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:21:03,312 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:21:04,591 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:21:05,074 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:21:06,350 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:21:06,878 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:21:09,153 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:21:09,631 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:21:12,954 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:21:13,523 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:21:26,001 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:21:26,486 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:21:40,007 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:21:40,635 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:21:49,041 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:21:49,570 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:21:50,858 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:21:51,471 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:21:58,852 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:21:59,423 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:22:07,885 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:22:08,508 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:22:15,903 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:22:16,418 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:22:20,742 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:22:21,349 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:22:42,055 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:22:42,564 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:22:43,821 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:22:44,405 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:22:51,836 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:22:52,358 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:22:56,675 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:22:57,231 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:22:58,494 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:22:59,064 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:23:09,570 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:23:10,129 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:23:16,516 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:23:17,116 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:23:22,463 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:23:22,938 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:23:27,266 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:23:27,841 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:23:35,246 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:23:35,847 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:23:45,275 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:23:45,878 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:23:54,278 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:23:54,788 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:23:57,064 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:23:57,746 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:24:04,108 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:24:04,595 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:24:06,896 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:24:07,397 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:24:08,677 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:24:09,294 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:24:15,672 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:24:16,161 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:24:23,563 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:24:24,070 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:24:27,413 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:24:27,965 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:24:30,243 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:24:30,728 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:24:31,975 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:24:32,469 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:24:33,730 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:24:34,282 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:24:40,676 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:24:41,279 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:24:49,670 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:24:50,177 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:24:53,510 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:24:54,112 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:25:01,501 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:25:02,133 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:25:07,500 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:25:08,041 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:25:09,301 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:25:09,796 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:25:12,070 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:25:12,590 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:25:18,950 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:25:19,495 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:25:55,462 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:25:55,966 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:25:57,220 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:25:57,741 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:26:01,041 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:26:01,525 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:26:06,853 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:26:07,424 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:26:18,865 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:26:19,383 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:26:28,828 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:26:29,315 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:26:35,680 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:26:36,185 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:26:37,453 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:26:38,072 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:26:44,452 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:26:44,981 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:26:46,289 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:26:46,804 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:26:48,069 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:26:48,579 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:26:49,848 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:26:50,328 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:26:52,597 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:26:53,106 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:26:54,357 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:26:54,920 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:26:56,171 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:26:56,668 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:29:41,353 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:29:41,938 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:30:04,625 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:30:05,099 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:30:08,393 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:30:08,894 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:30:13,203 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:30:13,715 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:30:15,996 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:30:16,489 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:30:17,758 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:30:18,257 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:30:19,514 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:30:19,980 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:30:28,398 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:30:28,889 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:30:33,219 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:30:33,697 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:30:34,966 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:30:35,472 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:30:39,792 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:30:40,299 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:30:41,572 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:30:42,038 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:30:45,334 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:30:45,846 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:30:49,142 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:30:49,661 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:30:50,896 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:30:51,369 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:30:52,621 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:30:53,123 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:30:55,390 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:30:55,882 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:30:57,140 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:30:57,616 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:31:01,924 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:31:02,395 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:31:06,722 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:31:07,188 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:31:13,585 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:31:14,052 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:31:16,333 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:31:16,858 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:32:12,375 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:32:12,900 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:32:20,288 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:32:20,806 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:32:22,086 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:32:22,689 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:32:30,096 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:32:30,613 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:32:36,975 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:32:37,475 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:32:38,744 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:32:39,370 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:32:56,965 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:32:57,463 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:33:00,768 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:33:01,307 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:33:06,667 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:33:07,183 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:33:12,540 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:33:13,098 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:34:24,808 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:34:25,362 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:37:04,857 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:37:05,355 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:37:07,661 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:37:08,266 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:37:20,760 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:37:21,284 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:37:29,695 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:37:30,312 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:37:36,696 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:37:37,210 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:37:38,476 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:37:38,969 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:37:41,245 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:37:41,798 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:37:44,089 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:37:44,722 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:39:50,532 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:39:51,031 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:39:58,466 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:39:58,982 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:40:05,326 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
+2024-01-24 11:40:05,925 INFO Watching for file changes with StatReloader 668
+2024-01-24 11:40:12,307 INFO E:\TODO-PROJECT\todo_project\account\models.py changed, reloading. 266
