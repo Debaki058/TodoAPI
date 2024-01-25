@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
+from decouple import config
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -20,12 +21,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-_+!gm4ndux!$h99mqto-9zcrsz&o*c9mq&&5vqdb_+&fcxoyt7'
+SECRET_KEY = config("SECRECT")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = config('DEBUG', cast = bool, default =True)
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
+
+
 AUTH_USER_MODEL = 'account.User'
 
 
@@ -38,10 +41,16 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'account',
     'rest_framework',
+    'rest_framework_simplejwt',
 
 ]
+EXTERNAL_APPS =[
+    'account',
+    'todoapp',
+
+]
+INSTALLED_APPS.extend(EXTERNAL_APPS)
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -80,13 +89,14 @@ WSGI_APPLICATION = 'todo_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'TODO_PROJECT',
+        'NAME': config('DB_NAME'),
         'USER': 'postgres',
-        'PASSWORD': 'root',
+        'PASSWORD':  config('DB_PASSWORD'),
         'HOST': 'localhost',
         'PORT': '5432',
     },
 }
+
 
 
 # Password validation
@@ -106,6 +116,14 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+  
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    )
+   
+}
+
 
 
 # Internationalization

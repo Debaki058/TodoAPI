@@ -1,3 +1,4 @@
+
 from django.core.mail import send_mail
 import random
 from django.conf import settings
@@ -13,4 +14,4 @@ def send_otp_via_email(email):
     send_mail(subject, message, email_form, [email])
     user_obj = User.objects.get(email = email)
     user_obj.otp = otp
-    user_obj.save()
+    user_obj.save()    
