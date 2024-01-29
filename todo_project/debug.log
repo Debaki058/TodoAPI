@@ -904,3 +904,21 @@ TypeError: In order to allow non-dict objects to be serialized set the safe para
 2024-01-29 12:14:28,747 WARNING "GET /api/todoapp/student/5/delete/ HTTP/1.1" 405 40 212
 2024-01-29 12:14:32,461 INFO "DELETE /api/todoapp/student/5/delete/ HTTP/1.1" 200 59 212
 2024-01-29 12:15:15,305 INFO Watching for file changes with StatReloader 668
+2024-01-29 12:25:04,746 INFO "DELETE /api/todoapp/student/6/delete/ HTTP/1.1" 200 59 212
+2024-01-29 12:25:36,845 WARNING Method Not Allowed: /api/todoapp/student/6/delete/ 241
+2024-01-29 12:25:36,845 WARNING "GET /api/todoapp/student/6/delete/ HTTP/1.1" 405 5120 212
+2024-01-29 12:25:36,983 INFO "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385 212
+2024-01-29 12:25:36,986 INFO "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457 212
+2024-01-29 12:25:36,990 INFO "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152 212
+2024-01-29 12:25:36,997 INFO "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719 212
+2024-01-29 12:25:36,998 INFO "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817 212
+2024-01-29 12:25:37,000 INFO "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597 212
+2024-01-29 12:25:37,008 INFO "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680 212
+2024-01-29 12:25:37,009 INFO "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632 212
+2024-01-29 12:25:37,010 INFO "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458 212
+2024-01-29 12:25:37,010 INFO "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268 212
+2024-01-29 12:25:37,023 INFO "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476 212
+2024-01-29 12:25:37,175 WARNING Not Found: /favicon.ico 241
+2024-01-29 12:25:37,175 WARNING "GET /favicon.ico HTTP/1.1" 404 2340 212
+2024-01-29 12:25:42,218 INFO "OPTIONS /api/todoapp/student/6/delete/ HTTP/1.1" 200 5398 212
+2024-01-29 12:26:17,277 INFO "GET /api/todoapp/student/list/ HTTP/1.1" 200 1102 212
