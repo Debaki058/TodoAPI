@@ -8,6 +8,7 @@ from rest_framework_simplejwt.tokens import RefreshToken
 
 
 
+
 class RegisterAPI(APIView):
 
     def post(self, request):

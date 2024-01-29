@@ -1,5 +1,7 @@
 from rest_framework import serializers
-from .models import Student
+from todoapp.models import Student
+
+
 
 
 
@@ -16,14 +18,15 @@ class StudentSerializer(serializers.Serializer):
     def create(self,validate_data):
         return Student.objects.create(**validate_data)
     
-    '''def update(self,instance,validate_data):
+    def update(self,instance,validate_data):
         instance.name=validate_data.get('name',instance.name)
-        instance.address=validate_data.get('address',instance.address),
-        instance.age=validate_data.get('age',instance.age),
+        instance.email=validate_data.get('age',instance.email)
+        instance.address=validate_data.get('address',instance.address)
+        instance.age=validate_data.get('age',instance.age)
         instance.mobile_number=validate_data.get('mobile_number',instance.mobile_number)
         instance.roll_number=validate_data.get('roll_number',instance.roll_number)
         instance.save()
-        return instance'''
+        return instance
 
     
     def validate_studentage(self, age):
@@ -32,24 +35,33 @@ class StudentSerializer(serializers.Serializer):
         return age
     
     
-    
     def validate_studentmobile_number(self, mobile_number):
       
         if Student.objects.filter(mobile_number=mobile_number).exists():
             raise serializers.ValidationError("Mobile Number Already Exist!")
         return mobile_number
     
+
+
     def validate_studentname(self, name):
       
         if Student.objects.filter(name=name).exists():
             raise serializers.ValidationError("Name Already Exist!")
         return name
+    
+
     def validate_studentemail(self, email):
       
         if Student.objects.filter(email=email).exists():
             raise serializers.ValidationError("Email Already Exist!")
         return email
-  
+    
+    def validate_studentroll_number(self, roll_number):
+        if roll_number<0 or roll_number>500:
+            raise serializers.ValidationError(f"Invalid rollNumber.your rollNumber is :{roll_number}")
+        return roll_number
+    
+    
 
 
     

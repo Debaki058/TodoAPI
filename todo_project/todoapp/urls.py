@@ -1,10 +1,10 @@
 from django.urls import path
-from todoapp import views 
+from . import views 
 
 urlpatterns = [
-    path("student/create", views.StudentCreateAPIView.as_view(), name="create"),
-    path("student/list", views.StudentListApiview.as_view(), name="list"),
-    path("student/edit", views.StudentEditApiview.as_view(), name="edit"),
-    path("student/delete", views.StudentDeleteApiview.as_view(), name="delete")
+    path("student/create/", views.StudentCreateAPIView.as_view(), name="student-create"),
+    path("student/list/", views.StudentListApiview.as_view(), name="student-list"),
+    path("student/<pk>edit/", views.StudentEditApiView.as_view(), name="student-edit"),
+    path("student/<int:id>/delete/",views.StudentDeleteApiView.as_view(), name="student-delete")
   
 ]
