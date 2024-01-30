@@ -922,3 +922,4 @@ TypeError: In order to allow non-dict objects to be serialized set the safe para
 2024-01-29 12:25:37,175 WARNING "GET /favicon.ico HTTP/1.1" 404 2340 212
 2024-01-29 12:25:42,218 INFO "OPTIONS /api/todoapp/student/6/delete/ HTTP/1.1" 200 5398 212
 2024-01-29 12:26:17,277 INFO "GET /api/todoapp/student/list/ HTTP/1.1" 200 1102 212
+2024-01-30 14:53:25,213 INFO Watching for file changes with StatReloader 668
