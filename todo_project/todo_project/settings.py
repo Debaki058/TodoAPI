@@ -158,14 +158,3 @@ EMAIL_HOST_USER = 'debakiblon30@gmail.com'
 EMAIL_HOST_PASSWORD = 'noqv ompn gwji xhvn'
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
-
-
-
-
-
-
-
-
-
-
-
