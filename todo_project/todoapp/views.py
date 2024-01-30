@@ -1,157 +1,116 @@
-import logging
-import json
 
-from rest_framework.decorators import APIView
-from django.http import JsonResponse
-from rest_framework import status
-from rest_framework.authentication import BaseAuthentication,TokenAuthentication
-from django.contrib.auth.models import User
 from django.core.exceptions import ObjectDoesNotExist
+
+from rest_framework.response import Response
+from rest_framework import status
+from rest_framework_simplejwt.authentication import JWTAuthentication
 from rest_framework.permissions import IsAuthenticated
+from rest_framework.views import APIView
 
-from .models import Student
-from  todoapp import global_msg
-from .serializers import StudentSerializer
+from todoapp.models import Student
+from todoapp.serializers import StudentSerializer
 
 
-logger=logging.getLogger('django')  
-
-class StudentCreateAPIView(APIView):
+class StudentListAPIView(APIView):
     authentication_classes = []  # Add appropriate authentication classes
     permission_classes = []  # Add appropriate permission classes
-
+    '''This class post/get all the  student'''
     def post(self, request):
-        try:
+        try:    
             if not request.body:
-                msg = {
-                    global_msg.RESPONSE_CODE_KEY: global_msg.SUCCESS_RESPONSE_CODE,
-                    global_msg.RESPONSE_MSG_KEY: "success"
+                msg = {                
+                    'responseCode':'1',
+                    'responseMsg':"data can not be blank"
                 }
-                return JsonResponse(msg, status=status.HTTP_200_OK)
-
+                return Response(msg, status=status.HTTP_200_OK)
+        
             serializer = StudentSerializer(data=request.data)
             if serializer.is_valid():
                 serializer.save()
-                msg = {
-                    global_msg.RESPONSE_CODE_KEY: global_msg.SUCCESS_RESPONSE_CODE,
-                    global_msg.RESPONSE_MSG_KEY: "SUCCESS OF DATA"
+                msg = {            
+                    'responseCode':'0',
+                    'responseMsg':"SUCCESS OF DATA"
                 }
-                return JsonResponse(msg, status=status.HTTP_201_CREATED)
+                return Response(msg, status=status.HTTP_201_CREATED)
 
-            msg = {
-                global_msg.RESPONSE_CODE_KEY: global_msg.UNSUCCESS_RESPONSE_CODE,
-                global_msg.RESPONSE_MSG_KEY: "Serializer invalid Data",
-                global_msg.ERROR_KEY: serializer.errors
+            msg = {          
+                'responseCode':'1',
+                'responseMsg':"Serializer invalid Data",
+                'errors':serializer.errors
+               
             }
-            return JsonResponse(msg, status=status.HTTP_400_BAD_REQUEST)
+            return Response(msg, status=status.HTTP_400_BAD_REQUEST)
 
-        except Exception as exe:
-            logger.error(str(exe))
-            msg = {
-                global_msg.RESPONSE_CODE_KEY: global_msg.UNSUCCESS_RESPONSE_CODE,
-                global_msg.RESPONSE_MSG_KEY: "Invalid Data"
+        except Exception as e:
+            print(e)
+            msg = {           
+                'responseCode':'1',
+                'responseMsg':" invalid Data",
             }
 
-   
-class StudentListApiview(APIView):
-    authentication_classes=[TokenAuthentication]
-    premission_classes=[IsAuthenticated]
-    
     def get(self,request):
         print(request.headers)
         try: 
-            student=Student.objects.filter(is_delete=False)#model instance
-            serializers=StudentSerializer(student,many=True)#model instance to python
-            
+            student=Student.objects.all()#model instance
+            serializers=StudentSerializer(student,many=True)#model instance to python           
             msg={
-                    global_msg.RESPONSE_CODE_KEY:global_msg.SUCCESS_RESPONSE_CODE,
-                    global_msg.RESPONSE_MSG_KEY:"SUCESS OF  DATA ",
+                    "message":"Success",
                     "data":serializers.data
                 }
          
-            return JsonResponse(msg, status = status.HTTP_200_OK)
+            return Response(msg, status = status.HTTP_200_OK)
             
-        except Exception as exe:
-            logger.error(str(exe),exc_info=True)
-            
+        except Exception as e:
+            print(e)
+          
             msg={
-                global_msg.RESPONSE_CODE_KEY:global_msg.UNSUCCESS_RESPONSE_CODE,
-                global_msg.RESPONSE_MSG_KEY :"invalid  Data"
+                'status': 400,
+                "message":"invalid Data"
         }
-        return JsonResponse(msg,status=status.HTTP_400_BAD_REQUEST)
+        return Response(msg,status=status.HTTP_400_BAD_REQUEST)
     
-class StudentEditApiview(APIView):
-    authentication_classes=[TokenAuthentication]
+   
+class StudentDetailApiview(APIView):
+    authentication_classes=[JWTAuthentication]
     premission_classes=[IsAuthenticated]
-    
-    
-    def put(self,request,pk):
-        print("edit vieww blah blah ")
-        if not request.body:
-            msg={
-                global_msg.RESPONSE_CODE_KEY:global_msg.SUCCESS_RESPONSE_CODE,
-                global_msg.RESPONSE_MSG_KEY:"success"
-            }
-            return JsonResponse(msg, status = status.HTTP_200_OK)
-        try: 
-            student=Student.objects.get(id=pk, is_delete=False)
-            print(student, "hello manadhar")
-            serializer = StudentSerializer(student, data=request.data)
-            user=User.objects.get(username="kamal")
-            if serializer.is_valid():
-                serializer.save()
-                msg={
-                    global_msg.RESPONSE_CODE_KEY:global_msg.SUCCESS_RESPONSE_CODE,
-                    global_msg.RESPONSE_MSG_KEY:"data update sucessfully "
-                }
-                return JsonResponse(msg, status = status.HTTP_400_BAD_REQUEST)
-            msg={
-                global_msg.RESPONSE_CODE_KEY:global_msg.UNSUCCESS_RESPONSE_CODE,
-                global_msg.RESPONSE_MSG_KEY :"invalid  Data",
-                global_msg.ERROR_KEY:serializer.errors
-        }
-            return JsonResponse(msg,status=status.HTTP_400_BAD_REQUEST)
-        except ObjectDoesNotExist as exe:
-            logger.error(str(exe), exc_info=True)
-            msg={
-                global_msg.RESPONSE_CODE_KEY:global_msg.UNSUCCESS_RESPONSE_CODE,
-                global_msg.RESPONSE_MSG_KEY :"Not Data Found"
-            }   
-        except Exception as exe:
-            logger.error(str(exe))
-            
-            msg={
-                global_msg.RESPONSE_CODE_KEY:global_msg.UNSUCCESS_RESPONSE_CODE,
-                global_msg.RESPONSE_MSG_KEY :"invalid  Data"
-        }
-        return JsonResponse(msg,status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+    '''This class edit/delete all the  student'''
+
+    def put(self, request,id):
+        student = Student.objects.get(id=id)
+        serializer = StudentSerializer(student, data=request.data)
         
-    
-    
-class StudentDeleteApiview(APIView):
-    
-    def delete(self,request,pk):
-        
+        if serializer.is_valid():
+            serializer.save()
+            return Response(serializer.data)
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+    def delete(self,request,id):      
         try:
-            student=Student.objects.get(id=pk)
+            print(id)
+            student=Student.objects.get(id=id)
             student.is_delete = True
             student.save()
-            msg={
-                    global_msg.RESPONSE_CODE_KEY:global_msg.SUCCESS_RESPONSE_CODE,
-                    global_msg.RESPONSE_MSG_KEY:"Delete sucessfully "
+            msg={              
+                'responseCode':'0',
+                'responseMsg':"Delete sucessfully"
+
                 }
-            return JsonResponse(msg,status=status.HTTP_200_OK)
-        except ObjectDoesNotExist as exe:
-            logger.error(str(exe), exc_info=True)
-            msg={
-                global_msg.RESPONSE_CODE_KEY:global_msg.UNSUCCESS_RESPONSE_CODE,
-                global_msg.RESPONSE_MSG_KEY :"Not Data Found"
-            }   
-            return JsonResponse(msg,status=status.HTTP_400_BAD_REQUEST)
-        except Exception as exe:
-            logger.error(str(exe), exc_info=True)
-            msg={
-                global_msg.RESPONSE_CODE_KEY:global_msg.UNSUCCESS_RESPONSE_CODE,
-                global_msg.RESPONSE_MSG_KEY :"invalid  Data"
+            return Response(msg,status=status.HTTP_200_OK)
+        except ObjectDoesNotExist as e:
+            print(e)
+            msg={      
+                'responseCode':'1',
+                'responseMsg':"Not Data Found"
             }
-            return JsonResponse(msg,status=status.HTTP_400_BAD_REQUEST)
+            return Response(msg,status=status.HTTP_400_BAD_REQUEST)
+        except Exception as e:
+            print(e)
+            msg={
+                
+                'responseCode':'1',
+                'responseMsg':"All invalid Data"
+            }
+            return Response(msg,status=status.HTTP_400_BAD_REQUEST)    
+    
+    
+
