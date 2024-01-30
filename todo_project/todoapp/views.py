@@ -32,7 +32,6 @@ class StudentListAPIView(APIView):
                     'responseMsg':"SUCCESS OF DATA"
                 }
                 return Response(msg, status=status.HTTP_201_CREATED)
-
             msg = {          
                 'responseCode':'1',
                 'responseMsg':"Serializer invalid Data",
